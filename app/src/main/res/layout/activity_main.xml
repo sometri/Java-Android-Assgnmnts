@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!-- Header/Title-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_bg1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Android Assignments"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+        <!-- Assignment1-->
+        <LinearLayout
+            android:id="@+id/mainLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Assignment 1"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:gravity="center"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:id="@+id/mainHomework1"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:src="@mipmap/activities"
+                    android:background="@drawable/rounded_bg1"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Assignment2-->
+        <LinearLayout
+            android:id="@+id/mainLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Assignment 2"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:gravity="center"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:id="@+id/mainHomework2"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:layout_margin="5dp"
+                    android:src="@mipmap/exchange_rate"
+                    android:background="@drawable/rounded_bg1"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
