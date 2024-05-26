@@ -68,34 +68,29 @@ ExchangeRateActivity
 
 Code Overview
 
-MainActivity.java
+- MainActivity.java
+  Handles the main screen with two clickable images that navigate to different activities.
+  
+  public class MainActivity extends AppCompatActivity {
+      // Code for MainActivity
+  }
 
-Handles the main screen with two clickable images that navigate to different activities.
+- EventHandlerActivity.java  
+  Contains a button that navigates back to the main screen when clicked.
+  
+  public class EventHandlerActivity extends AppCompatActivity {
+      // Code for EventHandlerActivity
+  }
 
-public class MainActivity extends AppCompatActivity {
-    // Code for MainActivity
-}
+- ExchangeRateActivity.java
+  Handles currency conversion and displays the results based on user input.
+  
+  public class ExchangeRateActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
+      // Code for ExchangeRateActivity
+  }
 
-EventHandlerActivity.java
-
-Contains a button that navigates back to the main screen when clicked.
-
-public class EventHandlerActivity extends AppCompatActivity {
-    // Code for EventHandlerActivity
-}
-
-ExchangeRateActivity.java
-
-Handles currency conversion and displays the results based on user input.
-
-public class ExchangeRateActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
-    // Code for ExchangeRateActivity
-}
-
-Screenshots
-
-see: img-results folders
+- Screenshots
+  see: img-results folders
 
 License
-
-This project is licensed under the Mr. OENG Sometri's License. See the LICENSE file for details.
+This project is licensed under the Mr. OENG Sometri's License. See the LICENSE file for details. It is for free.
